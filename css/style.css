@@ -49,6 +49,78 @@ table {
 body {
     background-color: LightGray;
 }
-div {
+/*div {
     border: 1px solid Chocolate;
+} */
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+    
+}
+.top-navigation > .content > .links {
+   float: right;
+   font-family: 'Roboto', sans-serif; 
+   font-size: 16px; 
+   color: #838994; 
+   letter-spacing: 0.03em;
+   -webkit-font-smoothing: antialiased;
+    }
+
+.top-navigation > .content > .links > li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.top-navigation > .content > .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation > .content > .links li:hover {
+    cursor: pointer;
+    color: #333333;
+    }
+
+    .content1 > h1 {
+    	 color: #ffffff;
+    	 font-size: 50px;
+    	 text-align: center;
+    	}
+.content1 > h3 {
+	color: #ffffff;
+    	 font-size: 24px;
+    	 text-align: center;
+    	}
+
+.introduction { 
+  background: url(http://i60.tinypic.com/2rmqmo3.jpg)
+no-repeat center center fixed; 
+background-size: cover;
+padding: 16em 0;
+
+}
+
+.buttons .half-learn{
+	color: #ffffff;
+	text-shadow: none;
+border-style: none;
+border-radius: 4px;
+padding: 16px 550px;
+line-height: 1.33;
+
+}
+.buttons .half-watch{
+	 color: #ffffff;
+	text-shadow: none;
+border-style: none;
+border-radius: 4px;
+padding: 5px 650px;
+line-height: 1.33;
+
 }
